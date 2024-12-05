@@ -6,6 +6,7 @@ import Header from './component/header'
 import { ThemeProvider } from './context/ThemeContext'
 import { LanguageProvider } from './context/LanguageContext'
 import Skills from './component/skills'
+import Profile from './component/profile'
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
       
     <Header/>
     <Skills/>
+    <Profile/>
     
     </LanguageProvider>
   </ThemeProvider>
