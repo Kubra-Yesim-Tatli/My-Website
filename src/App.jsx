@@ -8,6 +8,7 @@ import { LanguageProvider } from './context/LanguageContext'
 import Skills from './component/skills'
 import Profile from './component/profile'
 import Projects from './component/Projects'
+import SendMeMessage from './component/SendMeMessage'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
     <Skills/>
     <Profile/>
     <Projects/>
+    <SendMeMessage/>
     
     </LanguageProvider>
   </ThemeProvider>
