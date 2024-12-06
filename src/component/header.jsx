@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="w-[1440px] h-[671px] gap-0 opacity-100 relative flex">
       
-      <div className="bg-[#CBF281] flex justify-center items-center w-2/3 h-full">
+      <div className="bg-[#4731D3] flex justify-center items-center w-2/3 h-full">
         <div className="text-center relative">
           
           <div className="absolute top-[-50px] w-full text-3xl font-bold font-inter">
@@ -57,11 +57,11 @@ const Header = () => {
           }}
         />
       </div>
-      {/* Sağ taraf - 1/3 (mor renk) */}
-      <div className="bg-[#4731D3] text-white flex justify-center items-center space-x-4 w-1/3 h-full">
+      
+      <div className="bg-[#CBF281] text-white flex justify-center items-center space-x-4 w-1/3 h-full">
         <ThemeToggleButton />
 
-        {/* Dil Seçeneği Butonu */}
+        
         <button onClick={toggleLanguage} className="text-lg">
           {language === "en" ? "Türkçe'ye Geç" : "Switch to English"}
         </button>
