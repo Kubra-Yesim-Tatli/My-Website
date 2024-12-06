@@ -2,19 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Tema için gerekli global stilleri tanımlıyoruz */
-[data-theme="dark"] {
-  --bg-color: #2e2e2e;
-  --text-color: #fff;
-}
 
-[data-theme="light"] {
-  --bg-color: #f9f9f9;
-  --text-color: #000;
-}
-
-/* Global varsayılan stilleri burada ayarlıyoruz */
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
